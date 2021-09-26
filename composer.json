@@ -1,0 +1,39 @@
+{
+    "name": "caleido/parser",
+    "description": "XML Document Parser for PHP Laravel",
+    "keywords": ["xml", "parser"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "GeoKolo",
+            "email": "g.gloeckner@hotmail.de",
+            "homepage": "https://github.com/geokolo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Caleido\\Parser\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-simplexml": "*",
+        "tightenco/collect": "^5.6.16 || ^6.0 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "phpunit/phpunit": "^7.5 || ^8.4 || ^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caleido\\Parser\\Providers\\XmlServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
