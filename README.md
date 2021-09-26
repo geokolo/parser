@@ -27,6 +27,7 @@ The package  laravie / parser as extended. It is possible now:
 
 to
 
+```
 <?php
 
 // 
@@ -47,9 +48,11 @@ array:3 [▼
     "followers" => "3"
   ]
 ]
+```
 
 by writing
 
+```
 use Caleido\Parser\Facades\Facade as XmlParser;
 
 $xml = XmlParser::load('path/to/above.xml');
@@ -58,3 +61,4 @@ $user = $xml->parse([
     'email' => ['uses' => 'user.email'],
     'followers' => ['uses' => 'user::followers'],
 ]);
+```
