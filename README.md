@@ -8,6 +8,7 @@ This package provides a simple way to parse XML to array.
 Many thanks to @Laravie https://github.com/crynobone
 The package  laravie / parser as extended. It is possible now:
 
+```
 <api>
     <user followers="5">
         <id>1</id>
@@ -22,6 +23,7 @@ The package  laravie / parser as extended. It is possible now:
         <email>george.doe@gmail.com</email>
     </user>
 </api>
+```
 
 to
 
