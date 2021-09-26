@@ -5,7 +5,7 @@
 XML Document Parser PHP for laravel
 
 This package provides a simple way to parse XML to array.
-Many thanks to Laravie https://github.com/crynobone
+Many thanks to @Laravie https://github.com/crynobone
 The package  laravie / parser as extended. It is possible now:
 
 <api>
