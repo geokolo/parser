@@ -18,7 +18,7 @@ The package  laravie / parser was extended. It is possible now for example:
         <id>2</id>
         <email>jack.doe@gmail.com</email>
     </user>
-        <user followers="3">
+    <user followers="3">
         <id>3</id>
         <email>george.doe@gmail.com</email>
     </user>
